@@ -1,0 +1,944 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.toggle-effect{
+    overflow-y: hidden;
+}
+.home_page {
+    background-color: #001A2E;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+   
+   width: 100%;
+  
+   padding: 10px;
+}
+.fix_header{
+    background-color: #001A2E;
+    position: fixed;
+    z-index: 999;
+    transition: all 1s ease-in-out;
+ 
+}
+
+.nav-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+    position: relative;
+}
+
+.navbar-toggler {
+    background-color: white;
+    margin-right: -45px;
+    display: none;
+}
+
+.collapse-toggle {
+    flex-basis: 100%;
+    position: relative;
+
+}
+
+.image1>img {
+    width: 192px;
+    height: 26px;
+}
+
+.menubar {
+    width: 57%;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-left: 162px;
+}
+
+.nav {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 600;
+    margin-left: -111px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 3px;
+    border-radius: 6px;
+    background-color: #F14E9B;
+    top: 2px;
+}
+
+.nav-link.active::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 3px;
+    border-radius: 6px;
+    background-color: #F14E9B;
+    top: 2px;
+    transition: .3s;
+}
+
+.wrapper {
+    z-index: 1;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-between;
+    width: 29%;
+}
+
+.image-x>img {
+    width: 22px;
+    margin-bottom: -4px;
+}
+
+.login-button {
+    margin-top: 2px;
+}
+
+.login-button>a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.button1 {
+    background-color: #00A05A;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    padding: 7px 26px 7px 26px;
+}
+
+.button1:hover {
+    background-color: #1463a0;
+    color: black;
+}
+
+.image2 {
+    width: 20px;
+    padding-bottom: 13px;
+    margin-top: 150px
+}
+
+.image2>img {
+    width: 90px;
+    height: 90px;
+    margin-left: 61px;
+}
+
+.image2_heading {
+    width: 87%;
+    margin-left: 58px;
+}
+
+.image2_heading>h1 {
+    font-size: 51px;
+    color: #efe8e8;
+    font-family: 'Manrope';
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.image2_para>p {
+    color: #B0C7D9;
+    font-size: 18px;
+    margin-left: 60px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.image3 {
+    background-image: url(/assests//photos/IFA.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 17px 7px 21px;
+
+}
+
+.image4>img {
+    object-fit: cover;
+    margin-left: 84px;
+    margin-top: -84px;
+    width: 91%;
+}
+
+.about {
+
+    background-color: white;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+
+.image5>img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 47px;
+    margin-left: -12px;
+}
+
+.image6 {
+    background-color: white;
+    z-index: 1;
+    background-image: url(/assests/photos/Mask\ Group\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.about_content {
+    margin: 134px 45px 106px
+}
+
+.about_topheading>h4 {
+    color: #F14E9B;
+    font-size: 18px;
+    line-height: 50px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.about_secondheading>h2 {
+    width: 80%;
+    font-size: 32px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    line-height: 45px;
+    word-spacing: 1px;
+}
+
+.about_paragraph>p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 24px;
+    width: 76%;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #00a05ae6;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    opacity: 100%;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: bold;
+    width: 40%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 17px;
+}
+
+.space_width {
+    height: 100px;
+    background: transparent linear-gradient(0deg, #FFFFFF 0%, #f7f7f7 100%);
+    box-shadow: 5px 6px 10px 7px #e0dada80;
+}
+
+.courses {
+    width: 100%;
+    background-color: white;
+}
+
+.course_header>h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    line-height: 50px;
+    color: #000000;
+}
+
+.courses_paragraph>p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    color: #000000;
+}
+
+.box {
+    border: 1px solid #e1dede9e;
+    margin: 8px 12px;
+    display: flex;
+    height: auto;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 1px -1px 17px 3px #e8e1e17d;
+}
+
+.box.active {
+    box-shadow: inset 0px -2px 0px 0px #f14e9b;
+}
+
+.active:hover {
+
+}
+
+.courses-box {
+    margin: 40px auto 0px;
+    width: 80%;
+}
+
+/* .box-border{
+    margin: 60px auto;
+} */
+
+.box-icon>img {
+    width: 46px;
+    margin: 63px 90px 5px;
+}
+
+.rating-box>h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 9px 0px;
+    font-family: manrope;
+    font-weight: bolder;
+}
+
+.text-box>p {
+    text-align: center;
+    font-size: 14px;
+    font-family: manrope;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.Trending-courses {
+    background-color: #F5F5F5;
+    background-image: url(/assests/photos/Mask\ Group\ 2.png);
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    background-size: 38%;
+    opacity: 100%;
+}
+
+.Trending_course_header>h1 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 114px;
+    font-family: 'Manrope';
+    font-weight: 900;
+
+}
+
+.trending_courses_paragraph>p {
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    color: black;
+    width: 41%;
+    margin-top: 19px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 23px;
+}
+
+.trending-box {
+    margin: 40px auto;
+    width: 90%;
+}
+
+.card-box {
+    border: 1px solid #e1dede9e;
+    margin: 0px 4px 100px;
+    display: flex;
+    height: auto;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    background-color: white;
+}
+
+.box-image>img {
+    margin-top: 10px;
+    width: 93%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.technology>p {
+    font-size: 12px;
+    color: #F14E9B;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin: 17px 14px 8px;
+
+}
+
+.techno-courses>p {
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: bolder;
+    width: 80%;
+    margin-left: 15px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.image-wrapper {
+    display: flex;
+    margin-left: 16px;
+}
+
+.image8>img {
+    width: 20px;
+}
+
+.image-text {
+    font-size: 14px;
+    margin: 6px 7px 6px 9px;
+}
+
+.star-wrapper {
+    margin-left: 30px;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.slick-prev.slick-arrow {
+    display: none !important;
+}
+
+.slick-next.slick-arrow {
+    display: none !important;
+}
+
+#slick-slide-control00 {
+    display: none !important;
+}
+
+#slick-slide-control01 {
+    display: none !important;
+}
+
+.slick-dots {
+    list-style: none;
+}
+
+.image9 {
+    background-image: url(/assests/photos/Group\ 41@2x.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -85px;
+}
+
+.educators {
+    margin-top: 202px;
+}
+
+.education-course {
+    position: relative;
+    left: 183px;
+    top: 79px;
+}
+
+.educ-header>p {
+    font-size: 18px;
+    color: #F14E9B;
+    line-height: 0;
+    font-family: manrope;
+    font-weight: 600;
+}
+
+.educ-second_header>h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: manrope;
+    line-height: 70px;
+
+}
+
+.educ-para>p {
+    font-size: 14px;
+    font-family: manrope;
+    font-weight: 600;
+    text-align: justify;
+    width: 60%;
+}
+
+.button2 {
+    background-color: #00A05A;
+    color: white;
+    font-size: 14px;
+    width: 37%;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px 0px;
+}
+
+.image10>img {
+    margin-left: 12px;
+    width: 100%;
+    margin-top: -99px;
+}
+
+.rev-wrapper {
+    margin-top: -408px;
+    margin-left: -17px;
+}
+
+
+.review-image2>img {
+    width: 30%;
+}
+
+.review-image3>img {
+    width: 50%;
+    margin-top: -379px;
+}
+
+.review {
+    background-image: url(/assests//photos/Group\ 1228@2x.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.review-container {
+    margin-top: 121px;
+}
+
+.review-header>h1 {
+    font-size: 32px;
+    font-family: 'Manrope';
+    font-weight: bolder;
+    text-align: center;
+    line-height: 47px;
+}
+
+.review-para>p {
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    color: black;
+    width: 41%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.review-box {
+    width: 57%;
+    height: auto;
+    background-color: white;
+    border: 1px solid #f4f1f1;
+    margin: 85px auto;
+    border-radius: 6px;
+    box-shadow: 2px 2px 13px 14px #ebeae4;
+    background-image: url(/assests//photos/quote@2x.png);
+    background-position: 11% 29%;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    padding-bottom: 38px;
+}
+
+.image11>img {
+    width: 107px;
+    height: 107px;
+    display: block;
+    margin: -56px auto 0px;
+}
+
+.cust-review>p {
+    text-align: center;
+    font-size: 16px;
+    margin: 21px auto 0px;
+    width: 59%;
+    padding-top: 14px;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.image13 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image13-1 {
+    background-color: #ff000000 !important;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 68px;
+    box-shadow: 1px -1px 12px 18px #f5efef;
+}
+
+.image13-2 {
+    background-color: #00A05A !important;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 68px;
+    box-shadow: 1px -1px 12px 18px #f5efef;
+}
+
+.cus-name>h4 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.cus-name>p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -7px;
+    font-family: manrope;
+}
+
+.carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 209px;
+    margin-left: 292px;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("/assests/photos/Path\ 15946@2x.png");
+    width: 10px;
+    height: 14px;
+    color: red;
+
+}
+
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00A05A;
+    margin-top: 208px;
+    right: 288px;
+    opacity: 1;
+}
+
+.carousel-control-next-icon {
+    background-image: url("/assests/photos/Path\ 15947@2x.png");
+    width: 10px;
+    height: 14px;
+    color: red;
+
+}
+
+.registration {
+    margin-top: 58px;
+}
+
+.registration-box {
+    width: 80%;
+    height: auto;
+    background-color: #001A2E;
+    border: 1px solid #001A2E;
+    margin: 0px auto 50px;
+    border-bottom-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+
+.registration-body {
+    display: flex;
+    margin-top: -243px;
+    margin-left: 90px;
+}
+
+.image14>img {
+    width: 69%;
+    margin-left: -12px;
+}
+
+.image15>img {
+    width: 80px;
+    margin-top: 2px;
+    margin-left: -102px;
+}
+
+.register-header>h1 {
+    font-size: 32px;
+    color: white;
+    font-family: 'Manrope';
+    font-weight: 800;
+    width: 71%;
+    margin: 0px auto 0px;
+}
+
+.register-form {
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: 164px;
+}
+
+.register-form>input {
+    width: 70%;
+    border-radius: 5px;
+    height: 51px;
+    margin-top: 7px;
+    border: none;
+    padding-left: 14px;
+    background-color: #ffffffc4;
+}
+
+.register-form>input:focus {
+    outline: none;
+}
+
+button.btn {
+    background-color: #00A05A;
+    color: white !important;
+    font-size: 14px;
+    margin-left: 62px;
+    margin-top: -11px;
+    padding: 8px 30px 8px 30px;
+}
+
+.image16>img {
+    width: 13%;
+    margin-left: -63px;
+    margin-top: -26px;
+}
+
+.image17>img {
+    width: 45%;
+    margin-left: 80px;
+}
+
+.image-footer>img {
+    width: 100%;
+}
+
+.footer-wrapper {
+    margin: 50px;
+}
+
+.image18>img {
+    width: 126px;
+    margin: 22px 0px 22px 0px;
+}
+
+.footer-para>p {
+    font-size: 12px;
+    font-family: manrope;
+    font-weight: 600;
+    width: 70%;
+    margin-top: 6px;
+}
+
+.footer-para>p::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 89px;
+    height: 2px;
+    border-radius: 6px;
+    background-color: #F14E9B;
+    top: 15px;
+}
+
+.socialmedia-icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 39px;
+    margin-left: -107px;
+}
+
+.image23>img {
+    width: 319px;
+    margin-left: -60px;
+    margin-top: -109px;
+}
+
+.contact {
+    margin: 50px;
+}
+
+.contact-header>h1 {
+    font-size: 20px;
+    margin-top: 68px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-left: 19px;
+    margin-bottom: 16px;
+    margin-top: 68px;
+}
+
+.contact-header>h1::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 76px;
+    height: 1px;
+    border-radius: 6px;
+    background-color: #F14E9B;
+    top: 6px;
+}
+
+.contact-list>ul>li {
+    font-size: 14px;
+    font-family: manrope;
+    list-style: none;
+    margin: 28px 0px -24px
+}
+
+.links {
+    margin: 50px;
+}
+
+.link-header>h1 {
+    font-size: 20px;
+    margin-top: 68px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-left: 19px;
+    margin-bottom: 16px;
+    margin-top: 68px;
+}
+
+.link-header>h1::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 76px;
+    height: 1px;
+    border-radius: 6px;
+    background-color: #F14E9B;
+    top: 6px;
+}
+
+.links-list>ul>li {
+    font-size: 14px;
+    font-family: manrope;
+    list-style: none;
+    margin: 28px 0px -24px;
+}
+
+.arrow-icon>i {
+    color: #F14E9B;
+    padding-right: 6px;
+
+}
+
+.recent-courses {
+    margin: 50px;
+}
+
+.recent-header>h1 {
+    font-size: 20px;
+    margin-top: 68px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-left: 19px;
+    margin-bottom: 16px;
+    margin-top: 68px;
+}
+
+.recent-header>h1::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 76px;
+    height: 1px;
+    border-radius: 6px;
+    background-color: #F14E9B;
+    top: 6px;
+}
+
+.web-course {
+    display: flex;
+}
+
+.image24>img {
+    width: 110px;
+    margin-top: 16px;
+}
+
+.web-header>p {
+    font-size: 14px;
+    font-family: manrope;
+    font-weight: 600;
+    margin: 14px 17px;
+}
+
+.free-online-course {
+    display: flex;
+}
+
+.image25>img {
+    width: 110px;
+    margin-top: 16px;
+}
+
+.free-header>p {
+    font-size: 14px;
+    font-family: manrope;
+    font-weight: 600;
+    margin: 14px 17px;
+}
+
+.end {
+    border-top: 1px solid #d0cccc;
+    margin-top: -48px;
+    padding-top: 25px;
+}
+
+.footer-end>p {
+    font-size: 12px;
+    font-family: manrope;
+    font-weight: 600;
+    margin-left: 42px;
+}
+
+.footer-end-1>p {
+    font-size: 12px;
+    font-family: manrope;
+    font-weight: 600;
+    text-align: end;
+    margin-right: 45px;
+}
