@@ -162,15 +162,10 @@
     .button2 {
         width: 32%;
     }
-
-    .registration-wrapper {
-        margin-top: 38px;
+    .register-header>h1{
+        margin-left: auto;
+        width: 68%;
     }
-
-    .registration-body {
-        margin-top: -211px;
-    }
-
     .register-form {
         background-color: #ffffff;
         width: 80%;
@@ -196,6 +191,11 @@
         margin-top: -11px;
         padding: 8px 30px 8px 30px;
     }
+    .image16>img {
+        width: 13%;
+        margin-left: -43px;
+    }
+      
 
     .socialmedia-icon {
         margin-left: -63px;
@@ -315,17 +315,15 @@
     .carousel-control-next {
         right: 112px;
     }
-
-    .registration-body {
-        margin-top: -184px;
-        margin-left: 90px;
+    .register-header>h1{
+        margin-left: auto;
+        width: 75%;
     }
-
     .register-form {
         background-color: #ffffff;
-        width: 80%;
+        width: 85%;
         border-radius: 4px;
-        margin-left: 164px;
+        margin-left: 121px;
     }
 
     .register-form>input {
@@ -507,19 +505,14 @@
     .registration {
         margin-top: 0px;
     }
-
-    .registration-body {
-        margin-top: -182px;
-    }
-
     .image15>img {
-        margin-left: -79px;
+      width: 70px;
     }
 
     .register-header>h1 {
         font-size: 27px;
         width: 67%;
-        margin: 17px auto 0px;
+        margin-left: auto;
     }
 
     .image16>img {
@@ -530,7 +523,7 @@
         background-color: #ffffff;
         width: 80%;
         border-radius: 4px;
-        margin-left: 164px;
+        margin-left: 142px;
     }
 
     .register-form>input {
@@ -705,12 +698,12 @@
 
 
     .review-image2>img {
-        width: 30%;
+        width: 21%;
     }
 
     .review-image3>img {
         width: 50%;
-        margin-top: -379px;
+        margin-top: -252px;
     }
 
     .education-course {
@@ -765,22 +758,18 @@
     .registration-box {
         width: 91%;
     }
-
-    .registration-body {
-        margin-top: -149px;
-    }
-
     .register-header>h1 {
-        font-size: 14px;
-        width: 87%;
-        margin: 29px auto 0px;
-    }
+        font-size: 26px;
+    width: 85%;
+    margin-left: auto;
+}
 
     .register-form {
         background-color: #ffffff;
         width: 80%;
         border-radius: 4px;
-        margin-left: 98px;
+        margin-left: auto;
+      
     }
 
     .register-form>input {
@@ -803,8 +792,7 @@
     }
 
     .image15>img {
-        width: 50px;
-        margin-top: 26px;
+        width: 60px;
         margin-left: 0px;
     }
 
@@ -1011,12 +999,12 @@
 
 
     .review-image2>img {
-        width: 30%;
+        width: 21%;
     }
 
     .review-image3>img {
         width: 50%;
-        margin-top: -379px;
+        margin-top: -252px;
     }
 
     .education-course {
@@ -1097,22 +1085,21 @@
     .registration-box {
         width: 91%;
     }
-
-    .registration-body {
-        margin-top: -82px;
+    .registration-wrapper{
+        margin-top: -33px;
     }
-
     .register-header>h1 {
-        font-size: 11px;
+        font-size: 15px;
         width: 87%;
-        margin: 51px auto 0px;
+        margin-left: auto;
     }
 
     .register-form {
         background-color: #ffffff;
         width: 100%;
         border-radius: 4px;
-        margin-left: 98px;
+        margin-left:22px;
+       
     }
 
     .register-form>input {
@@ -1136,8 +1123,7 @@
     }
 
     .image15>img {
-        width: 33px;
-        margin-top: 42px;
+        width:41px;
         margin-left: 0px;
     }
 
@@ -1148,7 +1134,7 @@
     }
 
     .image17>img {
-        width: 31%;
+        width: 12%;
         margin-left: 185px;
     }
 
@@ -1365,12 +1351,12 @@
 
 
     .review-image2>img {
-        width: 30%;
+        width: 21%;
     }
 
     .review-image3>img {
         width: 50%;
-        margin-top: -379px;
+        margin-top: -252px;
     }
 
     .educators {
@@ -1465,26 +1451,20 @@
     .registration-box {
         width: 91%;
     }
-
-    .registration-wrapper {
-        margin-left: -41px;
+    .register-header{
+        margin-left: 0px;
     }
-
-    .registration-body {
-        margin-top: -125px;
-    }
-
     .register-header>h1 {
         font-size: 14px;
-        width: 64%;
-        margin: 52px auto 0px;
+        width: 88%;
+        margin-left: auto;
     }
 
     .register-form {
         background-color: #ffffff;
         width: 57%;
         border-radius: 4px;
-        margin-left: 130px;
+        margin-left: 22px;
     }
 
     .register-form>input {
@@ -1509,8 +1489,7 @@
 
     .image15>img {
         width: 28px;
-        margin-top: 48px;
-        margin-left: -35px;
+       
     }
 
     .image16>img {
@@ -1518,11 +1497,10 @@
         margin-left: -37px;
         margin-bottom: -57px;
     }
-
     .image17>img {
-        width: 11%;
-        /* margin-left: 352px; */
-        margin-top: -336px;
+        width: 13%;
+        margin-left: 352px;
+        margin-top: -175px;
     }
 
     .footer {

@@ -638,7 +638,7 @@ body {
     border-radius: 50%;
     background-color: #ffffff;
     margin-top: 209px;
-    margin-left: 292px;
+    margin-left: 302px;
     opacity: 1;
 }
 
@@ -656,7 +656,7 @@ body {
     border-radius: 50%;
     background-color: #00A05A;
     margin-top: 208px;
-    right: 288px;
+    right: 302px;
     opacity: 1;
 }
 
@@ -684,19 +684,23 @@ body {
 
 .registration-body {
     display: flex;
-    margin-top: -243px;
-    margin-left: 90px;
+    margin-top: 68px;
+   
+}
+.register-header{
+    margin-left: auto;
 }
 
 .image14>img {
-    width: 69%;
-    margin-left: -12px;
+  position: absolute;
+  width: 27%;
+  margin-left: -20px;
 }
 
 .image15>img {
     width: 80px;
     margin-top: 2px;
-    margin-left: -102px;
+   
 }
 
 .register-header>h1 {
@@ -705,7 +709,7 @@ body {
     font-family: 'Manrope';
     font-weight: 800;
     width: 71%;
-    margin: 0px auto 0px;
+ 
 }
 
 .register-form {
@@ -745,8 +749,9 @@ button.btn {
 }
 
 .image17>img {
-    width: 45%;
-    margin-left: 80px;
+    width: 11%;
+    margin-left: 50px;
+    position: absolute;
 }
 
 .image-footer>img {
