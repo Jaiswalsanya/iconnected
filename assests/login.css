@@ -17,29 +17,33 @@ body{
     background-image: url(/assests/photos/Group\ 1270@2x.png);
     background-repeat: no-repeat;
    background-size: 100%;
+   padding: 0;
 }
 .banner-wrapper{
     margin-top: auto;
     text-align: center;
-    padding-top: 497px;
+    padding:265px 0px;
+   
 }
 .banner-header>h1{
     font-size: 50px;
-    text-align: left;
-    margin-left: 62px;
+    text-align: center;
     color: white;
-    width: 78%;
     font-family: manrope;
-    font-size: 900;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 900;
+
 }
 .banner-paragraph>p{
     font-size: 17px;
-    width: 38%;
-    margin-left: 45px;
     color: white;
     font-family: manrope;
     font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
 }
 
 .form-banner{
@@ -47,29 +51,33 @@ body{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top right;
+    padding: 0;
 }
 .form-header {
     display: flex;
     margin: 40px 0px;
+    justify-content: center;
+   
 }
 .form-header>h1{
 font-size: 32px;
-font-family: manrope;
+font-family: 'manrope';
 font-weight: bold;
-margin-left: auto;
+text-align: center;
 }
 .form-header-image>img{
-    width: 51%;
-    margin-left: 4px;
-    margin-right: 82px;
-    display: block;
-    margin-top: 4px;
+    width: 59%;
+    margin-left: 8px;
+    margin-right: auto;
+    display: flex;
+    margin-top: 5px;
+    
 }
 .social-icon {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    padding: 0px 194px;
+    padding: 0px 64px;
 }
 .image1 {
     width: 35px;
@@ -77,7 +85,7 @@ margin-left: auto;
     border: 2px solid #beb7b7;
     border-radius: 50%;
 }
-.image1>img{
+.image1>a>img{
     width: 21px;
     margin-left: 5px;
     margin-top: 5px;
@@ -88,7 +96,7 @@ margin-left: auto;
     border: 2px solid #beb7b7;
     border-radius: 50%;
 }
-.image2>img{
+.image2>a>img{
     width: 11px;
     margin-left: 9px;
     margin-top: 5px;
@@ -99,7 +107,7 @@ margin-left: auto;
     border: 2px solid #beb7b7;
     border-radius: 50%;
 }
-.image3>img {
+.image3>a>img {
     width: 16px;
     margin-left: 8px;
     margin-top: 2px;
